@@ -1,0 +1,219 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  text-align: center;
+  padding: 0;
+}
+
+
+.perfil1{
+  width: 100vw;
+  max-width: 1500px;
+  min-width: 320px;
+  margin: auto;
+  position: relative;
+  opacity: 0.95;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.perfil1 img_1{
+  width: 100%;
+  background-image: url(./img/perfil1_jota-01.jpg);
+  min-height: 100%;
+}
+
+.perfil2{
+  width: 100vw;
+  max-width: 1500px;
+  min-width: 320px;
+  margin: auto;
+}
+.img_2{
+  width: 100%;
+}
+
+.perfil3{
+  width: 100vw;
+  max-width: 1500px;
+  min-width: 320px;
+  margin: auto;
+}
+.img_3{
+  width: 100%;
+}
+
+.perfil4{
+  width: 100vw;
+  max-width: 1500px;
+  min-width: 320px;
+  margin: auto;
+  
+}
+.img_4{
+  width: 100%;
+}
+
+
+/*
+.perfil1,
+.perfil2,
+.perfil3,
+.perfil4 {
+  position: relative;
+  opacity: 0.95;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.perfil1 {
+  background-image: url(./img/perfil1_jota-01.jpg);
+  width: 100%;
+  min-height: 100%;
+}
+
+
+
+.perfil2 {
+  background-image: url(./img/post_perf2a.jpg);
+  width: 100%;
+  min-height: 100%;
+}
+
+
+.perfil3 {
+  background-image: url(./img/pff2.jpg);
+  width: 100%;
+  min-height: 100%;
+}
+
+.perfil4 {
+  background-image: url(./img/pcc1.jpg);
+  width: 100%;
+  min-height: 100%;
+}
+
+*/
+
+
+.enunciado1 {
+  color: #141414;
+  font-size: 240%;
+  top: 18%;
+  text-shadow: 0px 0px 10px rgb(245, 210, 15) ;
+}
+
+.enunciado2 {
+  color: #121213;
+  font-size: 230%;
+  top: 30%;
+  text-shadow: 0px 0px 10px rgb(212, 160, 17)
+}
+
+
+.letrero4 {
+  color: rgb(20, 20, 20);
+  font-size: 250%;
+  top: 45%;
+}
+
+.enunciado1,
+.enunciado2,
+.enunciado3,
+.enunciado4 {
+  position: absolute;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  /*text-shadow: 20px 20px 20px rgb(10, 10, 10);*/
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+
+section {
+  padding: 30px 30px;
+}
+
+.dark {
+  background-color: #203239;
+  color: #faffaf;
+
+  
+}
+.dark h1 {
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+.dark h2 {
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+
+.dark p {
+  font-family: "Source Serif Pro", serif;
+  font-size: 22px;
+}
+
+.btn_neon1 {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: white;
+  letter-spacing: 4px;
+  font-size: 24px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
+  top: 5px;
+  text-shadow: 0 10px 20px black;
+  font-family: "Nunito", sans-serif;
+  font-weight: bolder;
+}
+
+.btn_neon1:hover {
+  background: rgb(135, 36, 228);
+  box-shadow: 0 0 10px rgb(135, 36, 228), 0 0 40px rgb(135, 36, 228),
+    0 0 80px rgb(135, 36, 228);
+  transition-delay: 0.2s;
+  border-radius: 10px;
+}
+
+.btn_neon2 {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: white;
+  letter-spacing: 4px;
+  font-size: 24px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
+  top: 5px;
+  text-shadow: 0 10px 20px black;
+  font-family: "Nunito", sans-serif;
+  font-weight: bolder;
+}
+
+.btn_neon2:hover {
+  background: rgb(30, 107, 151);
+  box-shadow: 0 0 10px rgb(30, 107, 151), 0 0 40px rgb(30, 107, 151),
+    0 0 80px rgb(30, 107, 151);
+  transition-delay: 0.2s;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .enunciado1 {
+    font-size: 150%;
+  }
+  .enunciado2 {
+    font-size: 130%;
+  }
+.dark p{
+  font-size: 20px;
+}
+}

@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #203239;
+}
+
+a {
+  text-decoration: none;
+  display: inline;
+  color: black;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+}
+
+header .header_icons_container {
+  width: 100%;
+  height: 60px;
+  display: grid;
+  background-color: #141e27;
+}
+
+header .header_icons_container .icons {
+  width: 250px;
+  height: auto;
+  display: flex;
+  justify-items: flex-end;
+  align-items: center;
+  justify-content: space-between;
+  justify-self: end;
+  margin-right: 40px;
+}
+
+header .icons span {
+  color: #e0ddaa;
+}
+
+#sidebar {
+  position: fixed;
+  width: 190px;
+  height: 100vh;
+  background: linear-gradient(
+    to bottom,
+    #0f2027,
+    #203a43,
+    #275366
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  left: -210px;
+  transition: 450ms linear;
+  box-shadow: 0px 0px 3px 3px #98b4aa;
+}
+
+#sidebar.active {
+  left: 0;
+}
+
+#sidebar ul li {
+  color: rgba(230, 230, 230, 0.9);
+  text-align: center;
+  border-bottom: 1px solid rgba(8, 227, 235, 0.2);
+  padding: 10px 10px;
+  list-style: none;
+  font-family: "Playball", cursive;
+  font-size: 20px;
+  margin-right: 30px;
+}
+
+#sidebar ul li a {
+  color: rgba(230, 230, 230, 0.9);
+  text-decoration: none;
+}
+
+#sidebar a:hover {
+  color: rgb(103, 248, 200);
+}
+#sidebar li:hover {
+  color: rgb(56, 153, 121);
+}
+
+.logo_perfil {
+  width: 130px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 3px 3px rgba(217, 225, 226, 0.5);
+  display: block;
+  margin-bottom: 10px;
+  margin-left: -20px;
+  opacity: .9;
+}
+
+#sidebar .toggle_btn {
+  position: absolute;
+  left: 220px;
+  top: 10px;
+  cursor: pointer;
+}
+
+#sidebar .toggle_btn:hover {
+  transform: scale(1.1);
+}
+
+#sidebar .toggle_btn span {
+  display: block;
+  width: 40px;
+  text-align: center;
+  font-size: 30px;
+  border: 2px solid rgb(161, 194, 238);
+  color: rgb(236, 220, 231);
+  border-radius: 5px;
+}
+
+
+
+    .container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+
+    .card{
+        
+        width: 360px;
+        height: 360px;
+        margin: 35px;
+        margin-top: 45px;
+        
+    }
+
+    .card-image{
+        background-color: #203239;
+        height: 360px;
+        background-size: cover;
+        border-radius: 10px;
+        margin-top: 3px;
+        
+    }
+
+    .perfil1{
+        background-image: url(./img/jota_imgperfil1.jpg);
+        box-shadow: 0px 0px 3px 3px rgba(217, 225, 226, 0.1);
+        
+      }
+
+    .perfil2{
+      background-image: url(./img/poster2A.png);
+  }
